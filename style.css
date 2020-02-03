@@ -4,7 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea{
+.description{
   background: transparent;
   border: none;
   resize: none;
@@ -12,6 +12,7 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+
 
 .jumbotron {
   text-align: center;
@@ -25,7 +26,7 @@ textarea{
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-table{
   text-align: center;
   border-radius: 15px;
 }
@@ -34,6 +35,11 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+}
+
+.stuff {
+  font-weight: bold;
+  color: #06AED5;
 }
 
 .hour {
